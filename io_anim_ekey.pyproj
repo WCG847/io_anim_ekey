@@ -23,13 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Import\" />
-    <Folder Include="Import\V1\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Import\V1\FrameParser.py" />
-    <Compile Include="Import\V1\__init__.py" />
-    <Compile Include="Import\YMKs.py" />
-    <Compile Include="Import\__init__.py" />
+    <Compile Include="Import\cekey.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
